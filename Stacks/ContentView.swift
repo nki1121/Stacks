@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        HStack {
             Rectangle()
                 .foregroundColor(.blue)
                 .frame(width: 200, height: 200)
